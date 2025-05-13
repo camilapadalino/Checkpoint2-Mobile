@@ -5,7 +5,7 @@ const PerfilScreen = ({ navigation }) => {
     return (
         <View style={styles.container}>
             <Text style={styles.text}>Bem-vindo ao seu perfil!</Text>
-            <Button title="Voltar para Home" onPress={() => navigation.goBack()} />
+            <Button title="Voltar pra Home" onPress={() => navigation.goBack()} />
         </View>
     );
 };
@@ -21,6 +21,8 @@ const styles = StyleSheet.create({
     text: {
         fontSize: 24,
         marginBottom: 20,
+        color: 'purple',
+        fontWeight: 'bold'
     },
 });
 

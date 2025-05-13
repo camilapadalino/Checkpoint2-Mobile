@@ -5,7 +5,7 @@ const DetalhesScreen = ({ navigation }) => {
     return (
         <View style={styles.container}>
             <Text style={styles.text}>Esta é a tela de detalhes.</Text>
-            <Button title="Voltar para Home" onPress={() => navigation.goBack()} />
+            <Button title="Voltar pra Home" onPress={() => navigation.goBack()} />
         </View>
     );
 };
@@ -21,6 +21,8 @@ const styles = StyleSheet.create({
     text: {
         fontSize: 24,
         marginBottom: 20,
+        color: 'purple',
+        fontWeight: 'bold'
     },
 });
 
